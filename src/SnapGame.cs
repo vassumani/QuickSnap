@@ -13,11 +13,12 @@ namespace CardGames
             SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
         }
 
-		/// <summary>
-		/// Respond to the user input -- with requests affecting myGame
-		/// </summary>
-		/// <param name="myGame">The game object to update in response to events.</param>
-		private static void HandleUserInput(Snap myGame)
+       
+        /// <summary>
+        /// Respond to the user input -- with requests affecting myGame
+        /// </summary>
+        /// <param name="myGame">The game object to update in response to events.</param>
+        private static void HandleUserInput(Snap myGame)
 		{
 			//Fetch the next batch of UI interaction
 			SwinGame.ProcessEvents();
