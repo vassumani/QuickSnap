@@ -26,6 +26,7 @@ namespace CardGames.GameLogic
 		// The amount of time that must pass before a card is flipped?
 		private int _flipTime = 1300;
 
+
 		// the score for the 2 players
 		private int[] _score = new int[2];
 
