@@ -48,7 +48,7 @@ namespace CardGames.GameLogic
 		{
 			get
 			{
-				return _topCards [1];
+                 _topCards[1];
 			}
 		}
 
