@@ -24,7 +24,7 @@ namespace CardGames.GameLogic
 		private readonly Timer _gameTimer;
 
 		// The amount of time that must pass before a card is flipped?
-		private int _flipTime = 1000;
+		private int _flipTime = 2000;
 
 		// the score for the 2 players
 		private int[] _score = new int[2];
@@ -48,7 +48,7 @@ namespace CardGames.GameLogic
 		{
 			get
 			{
-                 _topCards[1];
+               return  _topCards[1];
 			}
 		}
 
